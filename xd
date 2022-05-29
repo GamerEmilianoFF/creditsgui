@@ -1,0 +1,75 @@
+-- Instances:
+
+local creditssss = Instance.new("ScreenGui")
+local grame = Instance.new("Frame")
+local cre = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local join = Instance.new("TextLabel")
+local user = Instance.new("TextLabel")
+local userr = Instance.new("TextBox")
+
+--Properties:
+
+creditssss.Name = "creditssss"
+creditssss.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+creditssss.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+grame.Name = "grame"
+grame.Parent = creditssss
+grame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+grame.Position = UDim2.new(0.194485843, 0, 0.123915739, 0)
+grame.Size = UDim2.new(0, 337, 0, 257)
+
+cre.Name = "cre"
+cre.Parent = grame
+cre.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+cre.BorderColor3 = Color3.fromRGB(0, 85, 127)
+cre.Size = UDim2.new(0, 337, 0, 50)
+cre.Font = Enum.Font.SourceSans
+cre.Text = "CREDITS"
+cre.TextColor3 = Color3.fromRGB(255, 255, 255)
+cre.TextSize = 30.000
+
+TextBox.Parent = grame
+TextBox.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextBox.BorderColor3 = Color3.fromRGB(25, 25, 25)
+TextBox.Position = UDim2.new(0.128694698, 0, 0.802790165, 0)
+TextBox.Size = UDim2.new(0, 248, 0, 50)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "https://discord.gg/79fKXVuJfr"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 20.000
+
+join.Name = "join"
+join.Parent = grame
+join.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+join.BorderColor3 = Color3.fromRGB(25, 25, 25)
+join.Position = UDim2.new(0.0533596687, 0, 0.615336478, 0)
+join.Size = UDim2.new(0, 300, 0, 48)
+join.Font = Enum.Font.SourceSans
+join.Text = "Go to the discord to learn more about trip hub"
+join.TextColor3 = Color3.fromRGB(255, 255, 255)
+join.TextSize = 20.000
+
+user.Name = "user"
+user.Parent = grame
+user.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+user.BorderColor3 = Color3.fromRGB(25, 25, 25)
+user.Position = UDim2.new(0.127596438, 0, 0.252918273, 0)
+user.Size = UDim2.new(0, 250, 0, 50)
+user.Font = Enum.Font.SourceSans
+user.Text = "my user roblox"
+user.TextColor3 = Color3.fromRGB(255, 255, 255)
+user.TextSize = 29.000
+
+userr.Name = "userr"
+userr.Parent = grame
+userr.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+userr.BorderColor3 = Color3.fromRGB(25, 25, 25)
+userr.Position = UDim2.new(0.118694358, 0, 0.470817119, 0)
+userr.Size = UDim2.new(0, 257, 0, 50)
+userr.Font = Enum.Font.SourceSans
+userr.Text = "https://web.roblox.com/users/2205701910/profile\\n"
+userr.TextColor3 = Color3.fromRGB(255, 255, 255)
+userr.TextSize = 17.000
+userr.TextWrapped = true
